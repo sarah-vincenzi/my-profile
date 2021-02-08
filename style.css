@@ -1,0 +1,82 @@
+body  {
+  background-color: rgb(228,247,246);
+  font-family: 'Nunito', sans-serif;
+  font-size: 16px;
+  text-align: center;
+  color:rgb(85,93,133);
+  font-weight: 400;
+  line-height: 1.8;
+}
+h1, h2  {
+  color:rgb(65,201,197);
+  font-family: 'Roboto', sans-serif;
+  font-size:20px;
+  letter-spacing: 0.2px;
+  line-height: : 3;
+}
+h1 {
+  font-size: 24px;
+}
+a {
+  text-decoration: none;
+  ;
+}
+#img-circle {
+  border-radius: 50%;
+}
+.btn-style {
+  background:rgb(65,201,197);
+  border-radius: 5px;
+  padding: 8px;
+  color: white;
+  font-weight: 800;
+}
+.btn-style:hover {
+  background: rgb(45,181,177);
+}
+#introduction p {
+  margin-bottom: 30px;
+}
+.social-style {
+  font-size: 60px;
+  color:rgb(65,201,197);
+  margin:10px;
+}
+.social-style:hover {
+  color:rgb(45,181,177);
+}
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+.list-inline > li {
+  display: inline;
+  padding: 0px 5px;
+}
+.container {
+  width: 700px;
+  margin: 0px auto;
+}
+.card-white {
+  background:white;
+  margin:40px;
+  padding: 30px;
+  border-radius: 9px;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+}
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
